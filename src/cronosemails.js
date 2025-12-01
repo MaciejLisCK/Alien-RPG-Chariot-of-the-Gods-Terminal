@@ -255,7 +255,7 @@ Dokładnie tak, jak sugerowała rozszyfrowana transmisja — znaleźliśmy AO-39
 	"R.Walker", 
 	"C.Reynolds", 
 	"(3-17-2112 6:06 am)", '\
-To mój obowiązek zgłosić, że Carter nie żyje. Stało się to tak szybko, że trudno mi to opisać. Najpierw skarżył się na migreny. Potem zaczęła z niego tryskać krew. Następnie Wright próbował mu udzielić pomocy, kiedy z jego ciała wyrwało się jakieś stworzenie
+To mój obowiązek zgłosić, że Carter nie żyje. Stało się to tak szybko, że trudno mi to opisać. Najpierw skarżył się na migreny. Potem zaczęła z niego tryskać krew. Następnie Wright próbował mu udzielić pomocy, kiedy z jego ciała wyrwało się jakieś stworzenie\
 <Cooper znalazł ślady spor, które zainfekowały Cartera, wnikając w jego ciało i mutując jego wnętrzności, aby wyrosło to coś. Pochodziły ze znalezionych przez nas worków jajowych. Kto wie, kto jeszcze może być zainfekowany.\
 <Gdzie w Middle Heavens jesteśmy?\
 ');
