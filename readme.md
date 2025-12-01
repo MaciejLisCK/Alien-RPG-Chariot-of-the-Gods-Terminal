@@ -13,15 +13,15 @@ Code is extremely difficult to maintain.
 # Access shortcuts
 Idea is there are access codes that could be found on different places, so players can access terminal with code. Below there are shortcuts to access those codes.
 
-* A. Johns  https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=1987
-* V. Reid  https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=2654
-* L. Flynn  https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=3321
-* D. Cooper  https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=4987
-* Ava  https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=5654
-* R.Walker  https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=6321
-* E.Tenwick  https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=7987
-* C.Reynolds  https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=8654
-* L.Clayton  https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=9321
+* [A. Johns - code: 1987](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=1987)
+* [V. Reid - code: 2654](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=2654)
+* [L. Flynn - code: 3321](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=3321)
+* [D. Cooper - code: 4987](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=4987)
+* [Ava - code: 5654](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=5654)
+* [R.Walker - code: 6321](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=6321)
+* [E.Tenwick - code: 7987](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=7987)
+* [C.Reynolds - code: 8654](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=8654)
+* [L.Clayton - code: 9321](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=9321)
 
 
 
