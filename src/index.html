@@ -42,7 +42,7 @@
 		<div class="mainWindow securityBoxShadow"  style="top: 60%;">\
 			<button id="demo" class="windowHeader securityFont">Security</button>\
 			<button id="demo" class="alienButton1 mainWindowButton" onmousedown="playRandomSound()" onclick="StartContent(\'SecurityMap\');"  style="left:25%;">Map</button>\
-			<button id="demo" class="alienButton1 mainWindowButton" onmousedown="playRandomSound()" onclick="StartContent(\'Personnel\');"  style="left:75%;">Personnel</button>\
+			<button id="demo" class="alienButton1 mainWindowButton" onmousedown="playRandomSound()" onclick="StartContent(\'Personnel\');"  style="left:75%;">Personel</button>\
 		</div>\
 		';
 		
@@ -640,14 +640,14 @@
 		var email = emails[emailNumber];
 		
 		var subjectBox = document.getElementById("subjectBox");
-		subjectBoxContent = "Subject: " + email.Subject;
+		subjectBoxContent = "Temat: " + email.Subject;
 		if(BoxType == "Inbox")
 		{
-			subjectBoxContent += "<br>From: " + email.From + " " + email.Time; 
+			subjectBoxContent += "<br>Od: " + email.From + " " + email.Time; 
 		}
 		else if(BoxType == "Outbox")
 		{
-			subjectBoxContent += "<br>To: " + email.To + " " + email.Time; 
+			subjectBoxContent += "<br>Do: " + email.To + " " + email.Time; 
 		}
 		
 		

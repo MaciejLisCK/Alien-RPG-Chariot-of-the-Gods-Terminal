@@ -261,7 +261,7 @@ To mój obowiązek zgłosić, że Carter nie żyje. Stało się to tak szybko, �
 ');
 
 	const UrgingEvacuation = new Email(
-	"Urging Evacuation of LV-1113", 
+	"Wezwanie do ewakuacji LV-1113", 
 	"R.Walker", 
 	"V.Reid", 
 	"(3-17-2112 3:11 pm)", '\
@@ -272,7 +272,7 @@ Straciliśmy Cartera, Wrighta, Garcię i Nguyena.\
 
 
 	const EggSacsOnShip = new Email(
-	"Alert! EGG SACS on the SHIP", 
+	"Alarm! Worki jajowe na statku", 
 	"R.Walker", 
 	"E.Tenwick", 
 	"(3-19-2112 11:27 am)", '\
@@ -281,7 +281,7 @@ Nie wiem, jak to mogło się stać, ale te same worki jajowe, które znaleźliś
 ');
 
 	const ImInfected = new Email(
-	"I’ve been Infected", 
+	"Zostałem zainfekowany", 
 	"L.Flynn", 
 	"E.Tenwick", 
 	"(3-19-2112 4:18 pm)", '\
@@ -292,7 +292,7 @@ Właśnie potwierdziłem to testem krwi. Zostałem zainfekowany. Nie zostało wi
 ');
 
 	const UpdateOnPossibleCure = new Email(
-	"Update on Possible “Cure”", 
+	"Aktualizacja w sprawie możliwego „leku”", 
 	"R.Walker", 
 	"L.Flynn", 
 	"(3-20-2112 3:55 pm)", '\
@@ -302,7 +302,7 @@ Osiągnąłem ogromny postęp w sprawie możliwego "lekarstwa" na osoby zainfeko
 ');
 
 	const SideEffects = new Email(
-	"Side Effects?", 
+	"Skutki uboczne?", 
 	"L.Flynn", 
 	"R.Walker", 
 	"(3-20-2112 6:19 pm)", '\
@@ -312,7 +312,7 @@ Wiem, że jesteś zajęty, ale mam problemy zdrowotne, których nie mogę zignor
 ');
 
 	const Youkkkkk  = new Email(
-	"(Draft) Youkkkkk iSELF", 
+	"(Szkic) Youkkkkk iSELF", 
 	"", 
 	"R.Walker", 
 	"(3-20-2112 1:47 am)", '\
@@ -321,7 +321,7 @@ CZUJĘ SWĘDZENIE I...AGGGG.. WIDZĘ CZERWIEŃ, PRAWDA?\
 ');
 
 	const YoureInCommandNow  = new Email(
-	"You’re in Command Now", 
+	"Teraz jesteś dowódcą", 
 	"A.Johns", 
 	"V.Reid", 
 	"(3-21-2112 9:10 am)", '\
@@ -332,7 +332,7 @@ Kapitan nie żyje. Zabiłem go. Możesz mnie sądzić, gdy wrócimy na Ziemię, 
 ');
 
 	const TellMeTheTruth  = new Email(
-	"Tell Me The Truth", 
+	"Powiedz mi prawdę", 
 	"L.Flynn", 
 	"D.Cooper", 
 	"(3-21-2112 10:31 am)", '\
@@ -342,7 +342,7 @@ Właśnie skończyłem wstępne sekcje tej rzeczy, która kiedyś była kapitane
 ');
 
 	const ReportToCryoChambers  = new Email(
-	"ALL REMAINING PERSONNEL REPORT TO CRYOCHAMBERS IMMEDIATELY", 
+	"WSZYSTKIE POZOSTAŁE OSOBY ZGŁASZAJĄ SIĘ NATYCHMIAST DO KRIOKOMÓREK", 
 	"CronusCrew", 
 	"A.Johns", 
 	"(3-21-2112 2:08 pm)", '\
@@ -353,7 +353,7 @@ Utraciliśmy kontrolę nad Cronusem. Każdemu pozostałemu członkowi załogi ro
 ');
 
 	const NotGoingToMakeIt  = new Email(
-	"Not Going To Make It", 
+	"Nie dam rady", 
 	"A.Johns", 
 	"C.Reynolds", 
 	"(3-21-2112 2:20 pm)", '\
@@ -365,7 +365,7 @@ Cóż Johns, prawie dotarłem do komór kriogenicznych, jak rozkazałeś. Ale ob
 ');
 
 	const NeomorphLifeCycle  = new Email(
-	"Neomorph Lifecycle Discovery", 
+	"Odkrycie cyklu życia neomorfa", 
 	"A.Johns", 
 	"Ava", 
 	"(3-28-2112 10:00 am)", '\
@@ -376,7 +376,7 @@ Podczas rutynowych rund konserwacyjnych natknąłem się na coś dość fascynuj
 ');
 
 	const ImpactOfMicroMeteorStorm  = new Email(
-	"Impact of Micro-Meteor Storm", 
+	"Wpływ burzy mikrometeorów", 
 	"A.Johns", 
 	"Ava", 
 	"(4-17-2112 2:08 pm)", '\
@@ -388,7 +388,7 @@ Niestety, mam złe wieści dotyczące naszej podróży powrotnej na Ziemię. Nap
 
 
 	const Beeeeeep  = new Email(
-	"(Draft) Beeeeeep", 
+	"(Szkic) Beeeeeep", 
 	"", 
 	"Ava", 
 	"(4-19-2112 11:55 pm)", '\
@@ -399,7 +399,7 @@ Metalowe kości. Mleczna krew. Słyszysz je przy oknie?\
 ');
 
 	const AndroidReactivation  = new Email(
-	"Android Reactivation", 
+	"Reaktywacja androida",
 	"CronusCrew", 
 	"Ava", 
 	"(4-20-2112 3:00 am)", '\
