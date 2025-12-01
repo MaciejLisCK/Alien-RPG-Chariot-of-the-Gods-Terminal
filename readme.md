@@ -39,15 +39,15 @@ Idea is there are access codes that could be found on different places, so playe
 > **QR Codes** The system uses QR codes which contain a url and an > id code for that user. You can view the QR codes here. https://> www.experimentalgamer.com/AlienRPG/ChariotOfTheGods/Terminal/> QRCodeImage.png
 > So you can print and cut these out to make little access > cards. In the future I will make nicer looking cards. Players > can use their phones to follow the QR code and automatically > log into that NPCs account (although their character must be > at an "access terminal" on the ship)
 > If you don't want to use QR codes you can just follow these > links directly:
-> A. Johns https://www.experimentalgamer.com/AlienRPG/> ChariotOfTheGods/Terminal/index.html?id=1987
-> V. Reid https://www.experimentalgamer.com/AlienRPG/> ChariotOfTheGods/Terminal/index.html?id=2654
-> L. Flynn https://www.experimentalgamer.com/AlienRPG/> ChariotOfTheGods/Terminal/index.html?id=3321
-> D. Cooper https://www.experimentalgamer.com/AlienRPG/> ChariotOfTheGods/Terminal/index.html?id=4987
-> Ava https://www.experimentalgamer.com/AlienRPG/> ChariotOfTheGods/Terminal/index.html?id=5654
-> R.Walker https://www.experimentalgamer.com/AlienRPG/> ChariotOfTheGods/Terminal/index.html?id=6321
-> E.Tenwick https://www.experimentalgamer.com/AlienRPG/> ChariotOfTheGods/Terminal/index.html?id=7987
-> C.Reynolds https://www.experimentalgamer.com/AlienRPG/> ChariotOfTheGods/Terminal/index.html?id=8654
-> L.Clayton https://www.experimentalgamer.com/AlienRPG/> ChariotOfTheGods/Terminal/index.html?id=9321
+> * A. Johns https://www.experimentalgamer.com/AlienRPG/ChariotOfTheGods/Terminal/index.html?id=1987
+> * V. Reid https://www.experimentalgamer.com/AlienRPG/ChariotOfTheGods/Terminal/index.html?id=2654
+> * L. Flynn https://www.experimentalgamer.com/AlienRPG/ChariotOfTheGods/Terminal/index.html?id=3321
+> * D. Cooper https://www.experimentalgamer.com/AlienRPG/ChariotOfTheGods/Terminal/index.html?id=4987
+> * Ava https://www.experimentalgamer.com/AlienRPG/ChariotOfTheGods/Terminal/index.html?id=5654
+> * R.Walker https://www.experimentalgamer.com/AlienRPG/ChariotOfTheGods/Terminal/index.html?id=6321
+> * E.Tenwick https://www.experimentalgamer.com/AlienRPG/ChariotOfTheGods/Terminal/index.html?id=7987
+> * C.Reynolds https://www.experimentalgamer.com/AlienRPG/ChariotOfTheGods/Terminal/index.html?id=8654
+> * L.Clayton https://www.experimentalgamer.com/AlienRPG/ChariotOfTheGods/Terminal/index.html?id=9321
 > 
 > **Where Are These Access Cards Found?**
 > -It's up to the GM but I suggest that all living characters > still possess their cards.
