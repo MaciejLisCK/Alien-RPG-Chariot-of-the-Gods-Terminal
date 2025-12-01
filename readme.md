@@ -1,6 +1,8 @@
 # Demo
 https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/
 
+Public access code: 1111 or 1234.
+
 # Informations
 This is a copy of [the site](https://www.experimentalgamer.com/AlienRPG/ChariotOfTheGods/Terminal)
 
@@ -13,6 +15,7 @@ Code is extremely difficult to maintain.
 # Access shortcuts
 Idea is there are access codes that could be found on different places, so players can access terminal with code. Below there are shortcuts to access those codes.
 
+* [Public - code: 1111](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=1111)
 * [A. Johns - code: 1987](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=1987)
 * [V. Reid - code: 2654](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=2654)
 * [L. Flynn - code: 3321](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=3321)
