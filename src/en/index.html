@@ -32,9 +32,6 @@
 	
 	
     <script type="text/javascript">
-
-	let online = new Boolean(true);
-	
 		var mainMenu = '\
 	<div id="crt"></div>\
 	<button class="alienButton1" onmousedown="playRandomSound()" onclick="StartContent(\'LoginScreen\');" style="left:85%; top:15%" >Log Out</button>\
@@ -1857,29 +1854,21 @@ var enemycounterintelligence = '<button class="unlockedInfoButton enemyCounterIn
 
 	var param1;
 	
-	var login = "No User";
+	var login = "";
 	var access = "Normal";
 	
 	window.onload = function() {
 	
 		//get Login from URL
 		let params = (new URL(document.location)).searchParams;
-		var id = params.get('id');
-		SetLoginFromId(id);
+		var code = params.get('code');
+		SetLoginFromCode(code);
 		
-		if(id=="login")
+		if(login=="")
 			ReplaceContent(loginScreen, "mainmenu3");
 		else
 			ReplaceContent(mainMenu, "mainmenu3");
 		
-		//ReplaceContent(SecurityMap, "mainmenu3");
-		//  OpenSecurityMap("DeckA");
-		
-		//ReplaceContent(Mailbox, "mainmenu3");
-		//	OpenMailbox("Inbox");
-		
-		
-		//Set Login window
 	}	
 
 
@@ -1942,7 +1931,7 @@ var enemycounterintelligence = '<button class="unlockedInfoButton enemyCounterIn
 		}
 	}
 
-	function SetLoginFromId(idNumber)
+	function SetLoginFromCode(idNumber)
 	{
 		switch(idNumber)
 		{
@@ -1981,11 +1970,8 @@ var enemycounterintelligence = '<button class="unlockedInfoButton enemyCounterIn
 				login="L.Clayton"; //walthorp
 				access = "Company";
 				break;
-			case "login":
-				login = "login";
-				break;
 			default:
-				login = "No User";		
+				login = "";		
 				break;
 		}	
 	}
@@ -2560,8 +2546,8 @@ function AccessCode() {
   var response = "";
   var next = "";
   
-  SetLoginFromId(answer);
-  if(login != "login" && login != "No User")
+  SetLoginFromCode(answer);
+  if(login != "")
   {
     playRandomSound();
 	ReplaceContent(mainMenu, "mainmenu3");  
