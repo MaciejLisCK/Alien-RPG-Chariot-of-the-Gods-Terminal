@@ -19,7 +19,8 @@
 	
 	const AirScrubbers = new Room(
 		"Air Scrubbers",
-		"Air scrubbers operating at 20% efficiency due to accumulated pollutants.  Cleaning required before Displacement drive can be engaged. <br /><br />Only accessible via ventilation and maintenance shafts. <br /> <br /> Carbon filters clean the air of pollutants while churning machines electrolyze the water and generate oxygen. <br /><br />WARNING: Electrolysis enabled. Risk of electrocution.",
+		"Air scrubbers operating at 20% efficiency due to accumulated pollutants.",
+		// "Air scrubbers operating at 20% efficiency due to accumulated pollutants.  Cleaning required before Displacement drive can be engaged. <br /><br />Only accessible via ventilation and maintenance shafts. <br /> <br /> Carbon filters clean the air of pollutants while churning machines electrolyze the water and generate oxygen. <br /><br />WARNING: Electrolysis enabled. Risk of electrocution.",
 	);
 	
 	const Stairwell = new Room(
@@ -30,12 +31,13 @@
 	
 	const EVAStorage = new Room(
 		"Eva Storage",
-		"Inventory: 3 IRC Mk.50 Compression suits",
+		"Inventory: 3 EVA suits.",
 	);
 	
 	const LeftShower = new Room(
 		"Port Showers",
-		"Warning: fungal organisms detected.",
+		"",
+		// "Warning: fungal organisms detected.",
 	);
 	
 	const RightShower = new Room(
@@ -50,41 +52,49 @@
 	
 	const Cryochambers = new Room(
 		"Cryochambers 1-3",
-		"Five life signs detected. 2 Deceased.  4 Chambers empty.",
+		"",
+		// "Five life signs detected. 2 Deceased.  4 Chambers empty.",
 	);
 	
 	const ExaminationRoom = new Room(
 		"Examination Room",
-		"Inventory: 2 Personal Medkits.",
+		"",
+		// "Inventory: 2 Personal Medkits.",
 	);
 	
 	const LeftElevator = new Room(
 		"Port Elevator",
-		"Accesses all decks of the ship.",
+		""
+		// "Accesses all decks of the ship.",
 	);
 	
 	const RightElevator = new Room(
 		"Starboard Elevator",
-		"Elevator damaged and inoperable.",
+		""
+		// "Elevator damaged and inoperable.",
 	);
 	
 	
 	
 	const Vestibule1 = new Room(
 		"Vestibule 1 (Armory)",
-		"Inventory: 1 M41A Pulse Rifle. 1 case shotgun shells.",
+		""
+		// "Inventory: 1 M41A Pulse Rifle. 1 case shotgun shells.",
 	);
 	const Vestibule2 = new Room(
 		"Vestibule 2 (EVA Suits)",
-		"Inventory: 2 EVA suits",
+		"",
+		// "Inventory: 2 EVA suits",
 	);
 	const EscapePods = new Room(
 		"4 Escape Pods",
-		"0/4 Remaining Escape Pods",
+		"",
+		// "0/4 Remaining Escape Pods",
 	);
 	const Bridge = new Room(
 		"Bridge",
-		"Command Station - Status Operational Activates displacement drive (FTL).  Flight and crew records.. <br /><br />Holographic Display Table - Destroyed<br /><br />Sensor Station: Used for ship video surveillance of the ship.  Currently needs repairs. <br /><br/>Life Support Monitors - Analyze current life support system status. ",
+		"Command Station - Status Operational Activates displacement drive (FTL).  Flight and crew records.. <br /><br />Holographic Display Table<br /><br />Sensor Station: Used for ship video surveillance of the ship.<br /><br/>Life Support Monitors - Analyze current life support system status. ",
+		// "Command Station - Status Operational Activates displacement drive (FTL).  Flight and crew records.. <br /><br />Holographic Display Table - Destroyed<br /><br />Sensor Station: Used for ship video surveillance of the ship.  Currently needs repairs. <br /><br/>Life Support Monitors - Analyze current life support system status. ",
 	);
 	const JunctionB1 = new Room(
 		"Junction B-1",
@@ -100,11 +110,13 @@
 	);	
 	const MedLab = new Room(
 		"Med Lab",
-		"Alien specimens contained. <br /><br />Medpod1 is damaged but operational. Medpod2 is in use.",
+		"Alien specimens contained.",
+		// "Alien specimens contained. <br /><br />Medpod1 is damaged but operational. Medpod2 is in use.",
 	);
 	const ScienceLab1 = new Room(
 		"Science Lab 1",
-		"Fungal organisms detected.",
+		"",
+		// "Fungal organisms detected.",
 	);
 	const ScienceLab2 = new Room(
 		"Science Lab 2",
@@ -116,11 +128,13 @@
 	);
 	const LivingQuarters = new Room(
 		"Living Quarters",
-		"Fungal organisms detected.",
+		"",
+		// "Fungal organisms detected.",
 	);
 	const ScienceModule = new Room(
 		"Science Module",
 		"Science module ejected from ship.",
+		// "Science module ejected from ship.",
 	);
 	const ReactorCore = new Room(
 		"Reactor Core",
@@ -135,11 +149,13 @@
 	);
 	const LeftStorageUnit = new Room(
 		"Port Storage",
-		"Inventory:  7 Drums of quinitricetyline (WARNING: Highly Unstable)",
+		""
+		// "Inventory:  7 Drums of quinitricetyline (WARNING: Highly Unstable)",
 	);
 	const RightStorageUnit = new Room(
 		"Starboard Storage",
-		"Inventory: 2 bolt guns, 1 cutting torch, 1 maintenance jack.",
+		"",
+		// "Inventory: 2 bolt guns, 1 cutting torch, 1 maintenance jack.",
 	);
 	const CargoBay1 = new Room(
 		"Cargo Bay 1",
@@ -159,7 +175,8 @@
 	);
 	const CoolantTanks = new Room(
 		"Coolant Tanks",
-		"Coolant tanks prevent overloading. <br /><br /> (Warning: Damaging coolant tanks could lead to reactor critical mass). <br /><br />Accessible via service tunnels.",
+		"Coolant tanks prevent overloading.",
+		// "Coolant tanks prevent overloading. <br /><br /> (Warning: Damaging coolant tanks could lead to reactor critical mass). <br /><br />Accessible via service tunnels.",
 	);
 	const Catwalk = new Room(
 		"Catwalk",
