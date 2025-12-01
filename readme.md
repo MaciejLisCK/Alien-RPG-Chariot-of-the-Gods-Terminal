@@ -1,7 +1,7 @@
 # Demo
 https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/
 
-Public access code: 1111 or 1234.
+Public access code: [1111](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=1111) or [1234](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=1234).
 
 # Informations
 This is a copy of [the site](https://www.experimentalgamer.com/AlienRPG/ChariotOfTheGods/Terminal)
