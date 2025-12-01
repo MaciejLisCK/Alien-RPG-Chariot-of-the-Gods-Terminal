@@ -26,7 +26,9 @@ Idea is there are access codes that could be found on different places, so playe
 * [C.Reynolds - code: 8654](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=8654)
 * [L.Clayton - code: 9321](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/index.html?code=9321)
 
-
+# Other materials
+* [Alternative Map for Players](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/images//USCSSCronusPlayerMap.png)
+* [Alternative Map for GM(Mother)](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/en/images//USCSSCronusGMMap.png)
 
 # Original post on reddit
 >TL;DR Log on to the access terminal as Security Officer Clark Reynolds to try it out: https://www.experimentalgamer.com/AlienRPG/ChariotOfTheGods/Terminal/index.html?id=8654
