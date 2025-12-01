@@ -207,8 +207,8 @@
 	var Mailbox='\
 	<div id="crt"></div>\
 	<div class="weyland" style="left:50%; top:6%" ></div>\
-	<button class="alienButton1" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');" style="left:15%; top:5%" >Main Menu</button>\
-	<div class="login" id="loginwindow" style="left:80%; top:6%" >User: Test <br>Access: None</div>\
+	<button class="alienButton1" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');" style="left:15%; top:5%" >Menu</button>\
+	<div class="login" id="loginwindow" style="left:80%; top:6%" >Użytkownik: Test <br>Dostęp: Brak</div>\
 	<div id="mailBox">\
 	</div>\
 	';
@@ -230,13 +230,13 @@
 	var SecurityMap='\
 	<div id="crt"></div>\
 	<div class="weyland" style="left:50%; top:6%" ></div>\
-	<div class="login" id="loginwindow" style="left:80%; top:6%" >User: Test <br>Access: None</div>\
-	<button class="alienButton1" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');" style="left:15%; top:5%" >Main Menu</button>\
-	<button class="alienButton1" id="DeckAButton" onmousedown="playRandomSound()" onclick="OpenSecurityMap(\'DeckA\');" style="left:80%; top:35%; z-index: 1000" >Deck A</button>\
-	<button class="alienButton1" id="DeckBButton" onmousedown="playRandomSound()" onclick="OpenSecurityMap(\'DeckB\');" style="left:80%; top:45%; z-index: 1000" >Deck B</button>\
-	<button class="alienButton1" id="DeckCButton" onmousedown="playRandomSound()" onclick="OpenSecurityMap(\'DeckC\');" style="left:80%; top:55%; z-index: 1000" >Deck C</button>\
-	<button class="alienButton1" id="DeckDButton" onmousedown="playRandomSound()" onclick="OpenSecurityMap(\'DeckD\');" style="left:80%; top:65%; z-index: 1000" >Deck D</button>\
-	<button class="mailIcon" id="mailIcon" onclick="StartContent(\'Mailbox\');" style="left:80%; top:10%" >Mail</button>\
+	<div class="login" id="loginwindow" style="left:80%; top:6%" >Użytkownik: Test <br>Dostęp: Brak</div>\
+	<button class="alienButton1" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');" style="left:15%; top:5%" >Menu</button>\
+	<button class="alienButton1" id="DeckAButton" onmousedown="playRandomSound()" onclick="OpenSecurityMap(\'DeckA\');" style="left:80%; top:35%; z-index: 1000" >Pokład A</button>\
+	<button class="alienButton1" id="DeckBButton" onmousedown="playRandomSound()" onclick="OpenSecurityMap(\'DeckB\');" style="left:80%; top:45%; z-index: 1000" >Pokład B</button>\
+	<button class="alienButton1" id="DeckCButton" onmousedown="playRandomSound()" onclick="OpenSecurityMap(\'DeckC\');" style="left:80%; top:55%; z-index: 1000" >Pokład C</button>\
+	<button class="alienButton1" id="DeckDButton" onmousedown="playRandomSound()" onclick="OpenSecurityMap(\'DeckD\');" style="left:80%; top:65%; z-index: 1000" >Pokład D</button>\
+	<button class="mailIcon" id="mailIcon" onclick="StartContent(\'Mailbox\');" style="left:80%; top:10%" >Poczta</button>\
 		<div id="openInbox" style="width: 80%">\
 			<div class="roomSubjectBox" id="subjectBoxOuter" style="visibility: visible; left: 5%; top: 30%;"><div style="padding: .5em;" id="subjectBox"></div></div>\
 			<div class="roomInfoBox" id="contentBoxOuter" style="visibility: visible; left: 5%; top: 35%;"><div style="padding: .5em;" id="contentBox" ></div></div>\
@@ -342,8 +342,8 @@
 	<button class="keypadbutton"  onClick="InputButton(\'9\');">9</button>\
 	<button class="keypadbutton"  onClick="InputButton(\'0\');">0</button>\
 	<br /><br />\
-	<button class="alienButton1"  class="button" onclick="AccessCode()" style="left: 20%; top: 90%;">Submit</button><p id="response">\
-	<button class="alienButton1"  onClick="ClearButton();" style="left: 80%; top: 90%; position: absolute;">Clear</button></p><p id="next"></p></div>\
+	<button class="alienButton1"  class="button" onclick="AccessCode()" style="left: 10%; top: 90%;">Zaloguj</button><p id="response">\
+	<button class="alienButton1"  onClick="ClearButton();" style="left: 80%; top: 90%; position: absolute;">Wyczyść</button></p><p id="next"></p></div>\
 		';
 	
 	var noContent = "";
@@ -556,8 +556,8 @@
 		//change icons
 		var inboxIcon = document.getElementById("inboxIcon");
 		var outboxIcon = document.getElementById("outboxIcon");
-		inboxIcon.innerHTML = "Inbox<br>" + GetEmails("Inbox").length;
-		outboxIcon.innerHTML = "Outbox<br>" + GetEmails("Outbox").length;
+		inboxIcon.innerHTML = "Odebrane<br>" + GetEmails("Inbox").length;
+		outboxIcon.innerHTML = "Wysłane<br>" + GetEmails("Outbox").length;
 				inboxIcon.classList.remove("mailIcon");
 				inboxIcon.classList.remove("mailIconDown");
 				outboxIcon.classList.remove("mailIcon");
@@ -1855,7 +1855,7 @@ var enemycounterintelligence = '<button class="unlockedInfoButton enemyCounterIn
 	var param1;
 	
 	var login = "";
-	var access = "Normal";
+	var access = "Podstawowy";
 	
 	window.onload = function() {
 	
@@ -1877,7 +1877,7 @@ var enemycounterintelligence = '<button class="unlockedInfoButton enemyCounterIn
 		if(document.getElementById("loginwindow") != null)
 		{
 		SetLoginWindowColor(access);
-		document.getElementById("loginwindow").innerHTML = "User: " + UserName(login) + "<br>" + "Access: " + access;
+		document.getElementById("loginwindow").innerHTML = "Użytkownik: " + UserName(login) + "<br>" + "Dostęp: " + access;
 		}
 	}
 
@@ -1897,7 +1897,7 @@ var enemycounterintelligence = '<button class="unlockedInfoButton enemyCounterIn
 			case "Company":
 				document.getElementById("loginwindow").style.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--CompanyColor');
 				break;
-			case "Normal":
+			case "Podstawowy":
 			default:
 				document.getElementById("loginwindow").style.backgroundColor = getComputedStyle(document.documentElement).getPropertyValue('--AGreen');
 				break;
@@ -1927,7 +1927,7 @@ var enemycounterintelligence = '<button class="unlockedInfoButton enemyCounterIn
 			case "R.Walker":
 				return "Richard Walker";
 			default:
-				return "Public Access";
+				return "Dostęp publiczny";
 		}
 	}
 
