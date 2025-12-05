@@ -2,17 +2,17 @@
 	
 
 var xenophotons1 = '\
-		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">BACK</button>\
+		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">ZURÜCK</button>\
 	<div class="datatitle" style="font-size: 35px; top: 25px">Shimaki <br />Data Log</div>\
 		<div class="dataimage"><img class="dataimg" src="images/stars.gif"></div>\
 		<div class="datacontent">\
-		Urbraxians use a novel method to send communications across the galaxy instantly.  By accessing the Xenospace network, they can bombard celestial bodies with Xenophotons, thus turning the stars themselves into a system of data storage that can be encoded with audio-visual signals.\
-		<br /><br />However, I have discovered a way to intercept these secret Urbraxian communications by using a Xenophoton Exposer.\
+		Die Urbraxianer verwenden eine neuartige Methode, um Kommunikationen sofort über die Galaxie zu senden. Durch den Zugriff auf das Xenospace-Netzwerk können sie Himmelskörper mit Xenophotonen bombardieren und so die Sterne selbst in ein Datenspeichersystem verwandeln, das mit audio-visuellen Signalen codiert werden kann.\
+		<br /><br />Ich habe jedoch einen Weg entdeckt, diese geheimen urbraxianischen Kommunikationen abzufangen, indem ich einen Xenophoton-Enthüller verwende.\
 	</div>\
-		<button class="greenbutton databutton" onmousedown="playRandomSound()"  style="top: 550; font-size: 14; height: 50;" onclick="StartContent(\'xenophotons2\');">How to use Xenophoton Exposer</button>';
+		<button class="greenbutton databutton" onmousedown="playRandomSound()"  style="top: 550; font-size: 14; height: 50;" onclick="StartContent(\'xenophotons2\');">Wie man den Xenophoton-Enthüller benutzt</button>';
 
 var xenophotons2 = '\
-		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">BACK</button>\
+		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">ZURÜCK</button>\
 		<div class="datatitle" style="font-size: 35px; top: 25px">Xenophoton <br />Network</div>\
 		<div class="dataimage"><img class="dataimg" src="images/xenophotonexposer.png"></div>\
 		<div class="datacontent">\
@@ -20,12 +20,12 @@ var xenophotons2 = '\
 <br /><br />2. Find a cluster of stars - Celestial bodies act as a data storage system for audio-visual messages.\
 <br /><br />3. Point the Xenophoton Exposer at the stars and press the “On” button - If there is a hidden code, the stars will change colors.  (Warning: You may need to press the button several times)\
 	</div>\
-		<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 500px" onclick="StartContent(\'xenophotons3\');">Next Steps</button>';
+		<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 500px" onclick="StartContent(\'xenophotons3\');">Nächste Schritte</button>';
 	
 
 			var xenophotons3 = '\
 				<button class="backbutton" onmousedown="playRandomSound()" style="left: 27px; width: 59px; height: 41px; top: 86px" onclick="StartContent(\'xenophotons2\');">Back</button>\
-		<button class="backbutton" onmousedown="playRandomSound()" style="left: 372px; width: 154px; height: 20px; top: 556px" onclick="StartContent(\'mainMenu\');">Main Menu</button>\
+		<button class="backbutton" onmousedown="playRandomSound()" style="left: 372px; width: 154px; height: 20px; top: 556px" onclick="StartContent(\'mainMenu\');">Hauptmenü</button>\
 				<div class="datacontent" style="top: 10; width: 800">\
 		4. Touch the stars below to change their colors to recreate the colored pattern you have exposed.\
 		</div>\
@@ -45,8 +45,8 @@ var xenophotons2 = '\
 	
 
 		var secrettransmission = '\
-		<button class="backbutton" onmousedown="playRandomSound()" style="left: 27px; width: 59px; height: 41px; top: 86px" onclick="StartContent(\'mainMenu\');">Main Menu</button>\
-		<button class="backbutton" onmousedown="playRandomSound()" style="left: 372px; width: 154px; height: 20px; top: 556px" onclick="StartContent(\'mainMenu\');">Main Menu</button>\
+		<button class="backbutton" onmousedown="playRandomSound()" style="left: 27px; width: 59px; height: 41px; top: 86px" onclick="StartContent(\'mainMenu\');">Hauptmenü</button>\
+		<button class="backbutton" onmousedown="playRandomSound()" style="left: 372px; width: 154px; height: 20px; top: 556px" onclick="StartContent(\'mainMenu\');">Hauptmenü</button>\
 		<div class="videoposition"><video width="824" height="439" controls>\
 			<source src="videos/KreegSecretTransmission.mp4" type="video/mp4">\
 			Your browser does not support the video tag.\
