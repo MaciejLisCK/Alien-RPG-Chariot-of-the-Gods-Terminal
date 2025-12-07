@@ -1,7 +1,12 @@
 # Demo
 https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/
 
-Public access code: [1111](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/index.html?code=1111) or [1234](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/index.html?code=1234).
+Public access code (players may try to access via obvious code): [1111](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/index.html?code=1111) or [1234](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/index.html?code=1234).
+
+# Languages
+* [English](https://github.com/MaciejLisCK/Alien-RPG-Chariot-of-the-Gods-Terminal/tree/main) on main branch.
+* [Polish](https://github.com/MaciejLisCK/Alien-RPG-Chariot-of-the-Gods-Terminal/tree/feature/polish-language)
+* [German](https://github.com/MaciejLisCK/Alien-RPG-Chariot-of-the-Gods-Terminal/tree/feature/german-language)
 
 # Informations
 This is a copy of [the site](https://www.experimentalgamer.com/AlienRPG/ChariotOfTheGods/Terminal)
