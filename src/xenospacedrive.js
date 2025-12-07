@@ -2,7 +2,7 @@
 	/////////////////////////// XENOSPACE DRIVE ////////////////////////////////
 
 	var nonogram = '\
-		<button class="backbutton" onmousedown="playRandomSound()" style="left: 372px; width: 154px; height: 20px; top: 556px" onclick="StartContent(\'mainMenu\');">Main Menu</button>\
+		<button class="backbutton" onmousedown="playRandomSound()" style="left: 372px; width: 154px; height: 20px; top: 556px" onclick="StartContent(\'mainMenu\');">Hauptmenü</button>\
 				<div class="datacontent" style="top: 10; width: 800">\
     <div id="puzzle-full" >\
         <section class="topkey">\
@@ -214,24 +214,24 @@
 	<button id="clearGrid" class="backbutton" onmousedown="playRandomSound()" style="visibility: hidden; left: 550px; width: 154px; height: 20px; top: 300px" onclick="clearGrid();">Clear Grid</button>\
 	<div id="instructions">\
         <p id="instructions-text">\
-        click to fill in cells. option + click to mark squares pink.\
+        Klicken zum Füllen von Zellen. Option + Klick zum Markieren von Feldern in Pink.\
         <br> \
         <br> \
-        numbers above correspond to columns, left to rows. \
-        numerical value indicates contiguously shaded cells. \
-        for example, "10" indicates a group of 10 shaded cells. \
+        Zahlen oben entsprechen Spalten, links Reihen. \
+        Zahlenwert gibt zusammenhängende gefärbte Zellen an. \
+        Zum Beispiel zeigt "10" eine Gruppe von 10 gefärbten Zellen an. \
         <br> \
         <br> \
-		show example of 8 down then 2 across with negative the helps with 5 down \
-        the amount of contiguous empty cells is not given. \
-        therefore, consider all configurations for that value. \
-        for example, "4 4" has three potential configurations. \
-        one:[xxxx--xxxx], two:[-xxxx-xxxx], three:[xxxx-xxxx-].\
-        logically, shaded cells overlap at points of certainty. \
-        we deduce that the cells [-xxx--xxx-] must be shaded.\
+		Zeige Beispiel von 8 runter dann 2 quer mit Negativ das hilft bei 5 runter \
+        Die Anzahl der zusammenhängenden leeren Zellen wird nicht angegeben. \
+        Betrachten Sie daher alle Konfigurationen für diesen Wert. \
+        Zum Beispiel hat "4 4" drei potenzielle Konfigurationen. \
+        eins:[xxxx--xxxx], zwei:[-xxxx-xxxx], drei:[xxxx-xxxx-].\
+        Logisch überlappen sich gefärbte Zellen an Punkten der Sicherheit. \
+        Wir folgern, dass die Zellen [-xxx--xxx-] gefärbt sein müssen.\
         <br> \
         <br> \
-        to solve, continue deducing until all values satisfied.\
+        Zum Lösen fahren Sie mit dem Folgern fort, bis alle Werte erfüllt sind.\
         </p>\
     </div>\
 		</div>\
@@ -1638,18 +1638,18 @@ function initialize() {
 
 
 	var xenospacedrive3 = '\
-		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">BACK</button>\
+		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">ZURÜCK</button>\
 		<div class="datatitle" style="font-size: 35px; top: 25px">Xenospace <br />Drive</div>\
 		<div class="dataimage"><img class="dataimg" src="images/xenospacedrive.png"></div>\
 		<div class="datacontent">\
-		ThE Xenospace Drive allows starships to open a wormhole to travel through Xenospace and exit at another point in the galaxy in mere moments.\
-		<br /><br />To configure a jump, four Lucidite Crystals are placed in a specific way and their colors are set using the Chroma Calibrators.\
-		<br /><br />Then, press the green button and the ship\'s computer to process the jump. \
+		Der Xenospace-Antrieb ermöglicht es Raumschiffen, ein Wurmloch zu öffnen, um durch den Xenospace zu reisen und in wenigen Augenblicken an einem anderen Punkt der Galaxie auszutreten.\
+		<br /><br />Um einen Sprung zu konfigurieren, werden vier Lucidite-Kristalle auf eine bestimmte Weise platziert und ihre Farben werden mit den Chroma-Kalibratoren eingestellt.\
+		<br /><br />Dann drücken Sie den grünen Knopf und der Schiffscomputer verarbeitet den Sprung. \
 		</div>\
-		<button class="greenbutton databutton" style="top: 550" onmousedown="playRandomSound()" style="top: 500px" onclick="StartContent(\'xenospacedrive4\');">More</button>';
+		<button class="greenbutton databutton" style="top: 550" onmousedown="playRandomSound()" style="top: 500px" onclick="StartContent(\'xenospacedrive4\');">Mehr</button>';
 		
 				var xenospacedrive4 = '\
-		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">BACK</button>\
+		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">ZURÜCK</button>\
 		<div class="datatitle" style="font-size: 35px; top: 25px">Xenospace <br />Drive</div>\
 		<div class="dataimage"><img class="dataimg" src="images/xenospacedrive.png"></div>\
 		<div class="datacontent">\

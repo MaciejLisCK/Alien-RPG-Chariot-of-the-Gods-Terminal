@@ -8,30 +8,30 @@
 	
 	const Mother = new Room(
 		"MU/TH/UR 2000",
-		"Room only accessible with Command or Company access.",
+		"Raum nur zugänglich mit Kommando- oder Firmenzugang.",
 	);
 	
 	const JunctionA1 = new Room(
 		"Junction A1",
-		"Main airlock open.  Umbilical detected. Deck access A-C.",
+		"Hauptluftschleuse offen. Umbilical erkannt. Zugang zu Decks A-C.",
 	);
 	
 	
 	const AirScrubbers = new Room(
 		"Air Scrubbers",
-		"Air scrubbers operating at 20% efficiency due to accumulated pollutants.",
+		"Luftreiniger arbeiten mit 20% Effizienz aufgrund angesammelter Schadstoffe.",
 		// "Air scrubbers operating at 20% efficiency due to accumulated pollutants.  Cleaning required before Displacement drive can be engaged. <br /><br />Only accessible via ventilation and maintenance shafts. <br /> <br /> Carbon filters clean the air of pollutants while churning machines electrolyze the water and generate oxygen. <br /><br />WARNING: Electrolysis enabled. Risk of electrocution.",
 	);
 	
 	const Stairwell = new Room(
 		"Stairwell",
-		"Allows access to all decks",
+		"Ermöglicht Zugang zu allen Decks",
 	);
 	
 	
 	const EVAStorage = new Room(
 		"Eva Storage",
-		"Inventory: 3 EVA suits.",
+		"Inventar: 3 EVA-Anzüge.",
 	);
 	
 	const LeftShower = new Room(
@@ -236,181 +236,181 @@
 	
 	
 	const LV1113Reached = new Email(
-	"LV-1113 Reached", 
-	"WYCorporate", 
-	"L.Clayton", 
+	"LV-1113 erreicht",
+	"WYCorporate",
+	"L.Clayton",
 	"(3-5-2112 5:55 am)", '\
-	The crew has woken up from hypersleep as the Cronus approaches the 26 Draconis system. Preliminary scans of LV-1113 reveal it to be a lush, jungle planet with plenty of lifeforms. The research team is preparing to deploy the science module.  Walker has asked the security team to accompany them.  The chemical agent may be down there, but there’s no telling what else is on the planet.\
+	Die Crew ist aus dem Kälteschlaf erwacht, während sich die Cronus dem 26 Draconis-System nähert. Vorläufige Scans von LV-1113 zeigen einen üppigen Dschungelplaneten mit zahlreichen Lebensformen. Das Forschungsteam bereitet sich darauf vor, das Wissenschaftsmodul zu entfalten. Walker hat das Sicherheitsteam gebeten, sie zu begleiten. Das chemische Agens könnte dort unten sein, aber es gibt keine Ahnung, was sonst noch auf dem Planeten ist.\
 	');
 	
 		const OriginOfChemical = new Email(
-	"Origin of AO-3959X.91-15", 
-	"L.Clayton", 
-	"D.Cooper", 
+	"Ursprung von AO-3959X.91-15",
+	"L.Clayton",
+	"D.Cooper",
 	"(3-16-2112 7:55 am)", '\
-	Just as the deciphered transmission led us to believe, we have found AO-3949X.91-15 here on LV-1113.  The science team has begun experimenting on the black liquid, dubbing it the “26 Draconis strain.”\
-	<What is most interesting is that the chemical did not originate here, rather it was deployed here a long time ago.  It has even mutated the planet’s lifeforms.  Genetic testing on the egg sacs growing in the temple show that they were grown primarily from the 26 Draconis Strain.\
-	<I’m uploading our analysis to the access terminal.\
+	Genau wie die entschlüsselte Übertragung uns glauben ließ, haben wir AO-3949X.91-15 hier auf LV-1113 gefunden. Das Wissenschaftsteam hat begonnen, mit der schwarzen Flüssigkeit zu experimentieren und nennt sie den "26 Draconis-Stamm".\
+	<Am interessantesten ist, dass die Chemikalie hier nicht entstanden ist, sondern vor langer Zeit hier eingesetzt wurde. Sie hat sogar die Lebensformen des Planeten mutiert. Genetische Tests an den Eiersäcken, die im Tempel wachsen, zeigen, dass sie hauptsächlich aus dem 26 Draconis-Stamm gezüchtet wurden.\
+	<Ich lade unsere Analyse auf das Zugriffsterminal hoch.\
 	');
 	
 	const XenomorphAttack = new Email(
-	"Xenomorph Attack", 
-	"R.Walker", 
-	"C.Reynolds", 
+	"Xenomorph-Angriff",
+	"R.Walker",
+	"C.Reynolds",
 	"(3-17-2112 6:06 am)", '\
-	It is my duty to report that Carter is dead.  It happened so fast I can hardly describe it.  At first he complained of migraines.  Then, blood started pouring out of him.  Then, Wright tried to administer aid, some kind of creature burst out of his body.  It cut up Wright pretty bad before I jerked it off of him. It ran off into the jungle.\
-	<Cooper was able to find traces of spores that had infected Carter, entering his body and mutating his insides to grow that thing.  They came from the egg sacs we found.  Who knows who else is infected.\
-	<Where in Middle Heavens are we?\
+	Es ist meine Pflicht zu berichten, dass Carter tot ist. Es passierte so schnell, dass ich es kaum beschreiben kann. Zuerst klagte er über Migräne. Dann begann Blut aus ihm zu strömen. Dann versuchte Wright, Hilfe zu leisten, als eine Art Kreatur aus seinem Körper platzte. Sie hat Wright ziemlich übel zugerichtet, bevor ich sie von ihm riss. Sie ist in den Dschungel geflohen.\
+	<Cooper konnte Spuren von Sporen finden, die Carter infiziert hatten, in seinen Körper eingedrungen waren und sein Inneres mutierten, um dieses Ding wachsen zu lassen. Sie kamen von den Eiersäcken, die wir gefunden haben. Wer weiß, wer sonst noch infiziert ist.\
+	<Wo im Himmel sind wir nur?\
 	');
 	
 	
 	
 	const UrgingEvacuation = new Email(
-	"Urging Evacuation of LV-1113", 
-	"R.Walker", 
-	"V.Reid", 
+	"Dringende Evakuierung von LV-1113",
+	"R.Walker",
+	"V.Reid",
 	"(3-17-2112 3:11 pm)", '\
-We’ve lost Carter, Wright, Garcia and Nguyen.\
-<9 hours later, the creature that came out of Carter came back for the rest of us.  Now it was much bigger.  This time it tore Wright to shreds and was on Garcia before he could draw his rifle.  In a panic, we started open firing.  The creature finally went down, but Nguyen was hit in the crossfire.\
-<Damn the company, we cannot stay on this rock another minute.  I am strongly urging you to recall the science team immediately and get every survivor off world and back on the Cronus.  If Clayton gives you a hard time, tell her she can stay down here.\
+Wir haben Carter, Wright, Garcia und Nguyen verloren.\
+<9 Stunden später kam die Kreatur, die aus Carter herauskam, zurück, um den Rest von uns zu holen. Jetzt war sie viel größer. Dieses Mal zerriss sie Wright in Stücke und war bei Garcia, bevor er sein Gewehr ziehen konnte. In Panik begannen wir, wild zu schießen. Die Kreatur ging schließlich zu Boden, aber Nguyen wurde im Kreuzfeuer getroffen.\
+<Verdammt sei die Firma, wir können keine Minute länger auf diesem Felsen bleiben. Ich dränge Sie nachdrücklich, das Wissenschaftsteam sofort zurückzurufen und jeden Überlebenden vom Planeten und zurück auf die Cronus zu bringen. Wenn Clayton Ihnen Schwierigkeiten macht, sagen Sie ihr, sie kann hier unten bleiben.\
 ');
 
 
 	const EggSacsOnShip = new Email(
-	"Alert! EGG SACS on the SHIP", 
-	"R.Walker", 
-	"E.Tenwick", 
+	"Alarm! EIERSÄCKE auf dem SCHIFF",
+	"R.Walker",
+	"E.Tenwick",
 	"(3-19-2112 11:27 am)", '\
-I don’t know how this could have happened but the same egg sacs we found on LV-1113 are now growing on the Cronus.  I wasn’t sure at first, but I saw a clutch of bird-sized eggs growing in the air scrubbers.  I may have already disturbed them and released the spores.\
-<I thought we confirmed the Neomorphs don’t lay eggs?  So how did this happen? We\'ll all be incubators for those demons soon.\
+Ich weiß nicht, wie das passieren konnte, aber dieselben Eiersäcke, die wir auf LV-1113 gefunden haben, wachsen jetzt auf der Cronus. Ich war mir zuerst nicht sicher, aber ich sah eine Gruppe vogelgroßer Eier in den Luftreinigern wachsen. Ich habe sie möglicherweise bereits gestört und die Sporen freigesetzt.\
+<Ich dachte, wir hätten bestätigt, dass die Neomorphs keine Eier legen? Wie konnte das also passieren? Wir werden bald alle Brutkästen für diese Dämonen sein.\
 ');
 
 	const ImInfected = new Email(
-	"I’ve been Infected", 
-	"L.Flynn", 
-	"E.Tenwick", 
+	"Ich bin infiziert",
+	"L.Flynn",
+	"E.Tenwick",
 	"(3-19-2112 4:18 pm)", '\
-I just confirmed it with a blood test. I’ve been infected.  There isn’t much time before a monster crawls out of me. I saw what happened to the others on LV-1113.  No thanks. \
-<I donate what’s left me to science.  Kill me. Take it out of me. Study it.  Learn from it.  That’s all I have left to give.\
-<I still don’t know how the egg sacs got on the ship.  But it’s only a matter of time before everyone is infected.  The motes are smaller than grains of sand.  They travel to the nearest potential host and zero-in on any unprotected orifice. \
-<Maybe Flynn can whip up some kind of protection from it.  Do whatever it takes.  And do it fast, my head is killing me.\
+Ich habe es gerade mit einem Bluttest bestätigt. Ich bin infiziert. Es ist nicht mehr viel Zeit, bevor ein Monster aus mir herauskriecht. Ich habe gesehen, was mit den anderen auf LV-1113 passiert ist. Nein danke. \
+<Ich spende das, was von mir übrig ist, der Wissenschaft. Tötet mich. Nehmt es aus mir heraus. Untersucht es. Lernt daraus. Das ist alles, was ich noch zu geben habe.\
+<Ich weiß immer noch nicht, wie die Eiersäcke auf das Schiff gekommen sind. Aber es ist nur eine Frage der Zeit, bis jeder infiziert ist. Die Partikel sind kleiner als Sandkörner. Sie reisen zum nächsten potenziellen Wirt und zielen auf jede ungeschützte Öffnung. \
+<Vielleicht kann Flynn irgendeine Art Schutz dagegen entwickeln. Tut, was nötig ist. Und tut es schnell, mein Kopf bringt mich um.\
 ');
 
 	const UpdateOnPossibleCure = new Email(
-	"Update on Possible “Cure”", 
-	"R.Walker", 
-	"L.Flynn", 
+	"Update zu möglichem \"Heilmittel\"",
+	"R.Walker",
+	"L.Flynn",
 	"(3-20-2112 3:55 pm)", '\
-I have made immense progress on a possible “cure” for those infected by the neomorph spores that have somehow found their way onto the Cronus.  I’ve tested it on my own infection and it quickly rendered the mutated cells in my body into a benign tumor.  I think we should begin distributing the inoculation immediately.  There is no time for further study.\
-<This progress was made possible only by recovering the embryonic “bloodburster” we retrieved from Tenwick.   So we can take solace that she did not perish entirely in vain.\
-<Furthermore, the inoculation may have further medicinal benefits beyond the scope of the spores, such as stopping some forms of cancer.  Despite the tragedies we endured here, perhaps there is a silver lining in all this.\
+Ich habe enorme Fortschritte bei einem möglichen "Heilmittel" für diejenigen gemacht, die von den Neomorph-Sporen infiziert wurden, die irgendwie auf die Cronus gelangt sind. Ich habe es an meiner eigenen Infektion getestet und es hat die mutierten Zellen in meinem Körper schnell in einen gutartigen Tumor umgewandelt. Ich denke, wir sollten sofort mit der Verteilung der Impfung beginnen. Es gibt keine Zeit für weitere Studien.\
+<Dieser Fortschritt wurde nur durch die Bergung des embryonalen "Blutplatzers" möglich, den wir von Tenwick geborgen haben. Wir können also Trost darin finden, dass sie nicht völlig umsonst gestorben ist.\
+<Darüber hinaus kann die Impfung weitere medizinische Vorteile über den Bereich der Sporen hinaus haben, wie z.B. das Stoppen einiger Krebsarten. Trotz der Tragödien, die wir hier erlitten haben, gibt es vielleicht einen Hoffnungsschimmer in all dem.\
 ');
 
 	const SideEffects = new Email(
-	"Side Effects?", 
-	"L.Flynn", 
-	"R.Walker", 
+	"Nebenwirkungen?",
+	"L.Flynn",
+	"R.Walker",
 	"(3-20-2112 6:19 pm)", '\
-I know you’re busy but I’ve got some health issues I can’t ignore.  My skin is mottling and blotchy and I’m starting to feel sick.  If there was a monster growing in me, it would have killed me by now, so it must be something else.\
-<You didn’t mention any side effects with the inoculation, but could that be it?  Everyone else seems fine.  \
-<I’m going to try to get over to medical, if the coast is clear.\
+Ich weiß, Sie sind beschäftigt, aber ich habe einige gesundheitliche Probleme, die ich nicht ignorieren kann. Meine Haut ist fleckig und ich fange an, mich krank zu fühlen. Wenn ein Monster in mir wachsen würde, hätte es mich inzwischen getötet, also muss es etwas anderes sein.\
+<Sie haben keine Nebenwirkungen der Impfung erwähnt, aber könnte es das sein? Alle anderen scheinen in Ordnung zu sein. \
+<Ich werde versuchen, zur Krankenstation zu kommen, wenn die Luft rein ist.\
 ');
 
 	const Youkkkkk  = new Email(
-	"(Draft) Youkkkkk iSELF", 
-	"", 
-	"R.Walker", 
+	"(Entwurf) Duuuuuu iSELBST",
+	"",
+	"R.Walker",
 	"(3-20-2112 1:47 am)", '\
-FEEL ITCHY AND...AGGGG ..I SEE THE RED RIGHT?\
-<…IT HURTS…WHO ARE YOU?  WAHT AM i NOW?\
+FÜHLE JUCKEN UND...AGGGG ..ICH SEHE DAS ROT RICHTIG?\
+<…ES TUT WEH…WER BIST DU? WAS BIN iCH JETZT?\
 ');
 
 	const YoureInCommandNow  = new Email(
-	"You’re in Command Now", 
-	"A.Johns", 
-	"V.Reid", 
+	"Sie haben jetzt das Kommando",
+	"A.Johns",
+	"V.Reid",
 	"(3-21-2112 9:10 am)", '\
-The Captain is dead.  I killed him.  You can court martial me when we get back to Earth if you want.  You can tear up my contract with WY for all I care.  \
-<It had to be done.  He wasn’t himself anymore, he was a monster.  A threat to us all.  Unlike you, I’ve seen too much death. First on Torin Prime and now LV-1113.  Sometimes you have to make the hard decisions.\
-<And now that you’re the new acting captain, you’ll be making a lot of hard decisions.  Between monsters bursting out of people and others turning into monsters themselves, there’ll be no shortage of sacrifices to be made to save what’s left of us.\
-<Good luck to you.  You can depend on me to do whatever it takes to protect the Cronus.  Unless you want to throw me in the brig for mutiny.\
+Der Captain ist tot. Ich habe ihn getötet. Sie können mich vor ein Kriegsgericht stellen, wenn wir zur Erde zurückkommen, wenn Sie wollen. Sie können meinen Vertrag mit WY zerreißen, es ist mir egal. \
+<Es musste getan werden. Er war nicht mehr er selbst, er war ein Monster. Eine Bedrohung für uns alle. Im Gegensatz zu Ihnen habe ich zu viel Tod gesehen. Zuerst auf Torin Prime und jetzt LV-1113. Manchmal muss man harte Entscheidungen treffen.\
+<Und jetzt, da Sie der neue amtierende Captain sind, werden Sie viele harte Entscheidungen treffen müssen. Zwischen Monstern, die aus Menschen herausplatzen, und anderen, die sich selbst in Monster verwandeln, wird es keinen Mangel an Opfern geben, die gebracht werden müssen, um das zu retten, was von uns übrig ist.\
+<Viel Glück. Sie können sich darauf verlassen, dass ich alles tue, was nötig ist, um die Cronus zu schützen. Es sei denn, Sie wollen mich wegen Meuterei in die Zelle werfen.\
 ');
 
 	const TellMeTheTruth  = new Email(
-	"Tell Me The Truth", 
-	"L.Flynn", 
-	"D.Cooper", 
+	"Sag mir die Wahrheit",
+	"L.Flynn",
+	"D.Cooper",
 	"(3-21-2112 10:31 am)", '\
-I just finished the initial dissection on that thing that was once Captain Walker.  I took a sampling of his DNA and found something that we should really discuss.\
-<Flynn, I know things have gone to hell, but I need you to be honest with me.  Why didn’t you tell us that the “cure” was a derivative of the 26 Draconis strain?  \
-<We’ve known each other a long time and I know you would do anything to save a life.  But did you ever consider that the “cure” itself was responsible for the captain’s mutation?  There is still so much we don’t know about AO-3959.91-15.  \
+Ich habe gerade die erste Sektion an diesem Ding beendet, das einmal Captain Walker war. Ich habe eine DNA-Probe genommen und etwas gefunden, worüber wir wirklich sprechen sollten.\
+<Flynn, ich weiß, dass die Dinge zur Hölle gegangen sind, aber ich brauche, dass Sie ehrlich zu mir sind. Warum haben Sie uns nicht gesagt, dass das "Heilmittel" ein Derivat des 26 Draconis-Stammes war? \
+<Wir kennen uns schon lange und ich weiß, dass Sie alles tun würden, um ein Leben zu retten. Aber haben Sie jemals in Betracht gezogen, dass das "Heilmittel" selbst für die Mutation des Captains verantwortlich war? Es gibt noch so viel, was wir über AO-3959.91-15 nicht wissen. \
 ');
 
 	const ReportToCryoChambers  = new Email(
-	"ALL REMAINING PERSONNEL REPORT TO CRYOCHAMBERS IMMEDIATELY", 
-	"CronusCrew", 
-	"A.Johns", 
+	"ALLE VERBLEIBENDEN MITARBEITER SOFORT ZU KRYOKAMMERN MELDEN",
+	"CronusCrew",
+	"A.Johns",
 	"(3-21-2112 2:08 pm)", '\
-We have lost control of the Cronus.  Every remaining crewman is ordered to report to the cryochambers immediately for the voyage back to Earth.  I have set the bridge to initiate total lockdown in 20 minutes.  \
-<Once those doors are locked, we will be safe.  But only if you’re inside them.  The creatures will not be able to open the doors. Only someone with card access can open them.\
-<Ava will continue to maintain the ship.  The xenomorphs seem to ignore her.  With any hope, we might actually make it.  \
-<I did not make this decision lightly.  But as your acting captain, this was my decision. I expect you to comply.\
+Wir haben die Kontrolle über die Cronus verloren. Jedem verbleibenden Besatzungsmitglied wird befohlen, sich sofort zu den Kryokammern zu begeben für die Reise zurück zur Erde. Ich habe die Brücke so eingestellt, dass sie in 20 Minuten eine vollständige Abriegelung einleitet. \
+<Sobald diese Türen verschlossen sind, werden wir sicher sein. Aber nur, wenn Sie drinnen sind. Die Kreaturen werden nicht in der Lage sein, die Türen zu öffnen. Nur jemand mit Kartenzugang kann sie öffnen.\
+<Ava wird das Schiff weiter warten. Die Xenomorphs scheinen sie zu ignorieren. Mit etwas Hoffnung schaffen wir es vielleicht wirklich. \
+<Ich habe diese Entscheidung nicht leichtfertig getroffen. Aber als Ihr amtierender Captain war dies meine Entscheidung. Ich erwarte, dass Sie sich fügen.\
 ');
 
 	const NotGoingToMakeIt  = new Email(
-	"Not Going To Make It", 
-	"A.Johns", 
-	"C.Reynolds", 
+	"Werde es nicht schaffen",
+	"A.Johns",
+	"C.Reynolds",
 	"(3-21-2112 2:20 pm)", '\
-Well Johns, I almost made it to the cryochambers, as you ordered.  But I’m afraid to tell you that I won’t be making it.\
-<My skin is mottling and blotchy, my vision is blurring and I feel like I just drank every last bottle of Walker’s stash of whiskey.  I know what’s happening to me.  Same thing that happened to Walker himself.  Soon I’ll become a danger to the crew.\
-<Too bad.  I was so close to getting back to my wife and kids.\
-<Rather than become an abomination, I’ve decided to end things here on my terms.  Take care. \
-<This is Second Security Officer, Clark Reynolds, signing off.\
+Nun Johns, ich habe es fast zu den Kryokammern geschafft, wie Sie befohlen haben. Aber ich fürchte, Ihnen sagen zu müssen, dass ich es nicht schaffen werde.\
+<Meine Haut ist fleckig und meine Sicht verschwimmt und ich fühle mich, als hätte ich jede letzte Flasche von Walkers Whiskey-Vorrat getrunken. Ich weiß, was mit mir passiert. Das Gleiche, was mit Walker selbst passiert ist. Bald werde ich eine Gefahr für die Crew werden.\
+<Schade. Ich war so nah daran, zu meiner Frau und meinen Kindern zurückzukehren.\
+<Anstatt zu einer Abscheulichkeit zu werden, habe ich beschlossen, die Sache hier zu meinen Bedingungen zu beenden. Pass auf dich auf. \
+<Hier ist Second Security Officer, Clark Reynolds, abmeldend.\
 ');
 
 	const NeomorphLifeCycle  = new Email(
-	"Neomorph Lifecycle Discovery", 
-	"A.Johns", 
-	"Ava", 
+	"Entdeckung des Neomorph-Lebenszyklus",
+	"A.Johns",
+	"Ava",
 	"(3-28-2112 10:00 am)", '\
-During my routine maintenance rounds, I encountered something quite fascinating.  The dead carcass of an adult neomorph creature is lying in the crew quarters.  It seems to have fallen from a vent in the ceiling.\
-<What’s interesting is that it seems to have died of natural causes.  This is only 24 hours after it emerged from the spine of Officer Peters.  To be born, to grow, to kill, and to die - all in a single day.  Intriguing.\
-<I ran several motion sensor scans across the entire ship and no movement has been picked up.  I am satisfied that there are no other xenomorphs on the ship.  They must have all died of natural causes.\
-<I believe it is safe to wake you and the remaining crew from cryosleep.  But as long as I am able to maintain the ship myself, I will not disturb your slumber until we reach Earth. \
+Während meiner routinemäßigen Wartungsrunden bin ich auf etwas ziemlich Faszinierendes gestoßen. Der tote Kadaver einer erwachsenen Neomorph-Kreatur liegt im Mannschaftsquartier. Sie scheint von einer Lüftungsöffnung in der Decke gefallen zu sein.\
+<Was interessant ist, ist, dass sie anscheinend eines natürlichen Todes gestorben ist. Dies ist nur 24 Stunden, nachdem sie aus der Wirbelsäule von Officer Peters hervorgegangen ist. Geboren werden, wachsen, töten und sterben - alles an einem einzigen Tag. Faszinierend.\
+<Ich habe mehrere Bewegungssensor-Scans über das gesamte Schiff durchgeführt und keine Bewegung wurde erfasst. Ich bin überzeugt, dass es keine anderen Xenomorphs auf dem Schiff gibt. Sie müssen alle eines natürlichen Todes gestorben sein.\
+<Ich glaube, es ist sicher, Sie und die verbleibende Crew aus dem Kryoschlaf zu wecken. Aber solange ich in der Lage bin, das Schiff selbst zu warten, werde ich Ihren Schlummer nicht stören, bis wir die Erde erreichen. \
 ');
 
 	const ImpactOfMicroMeteorStorm  = new Email(
-	"Impact of Micro-Meteor Storm", 
-	"A.Johns", 
-	"Ava", 
+	"Auswirkungen des Mikrometeoriten-Sturms",
+	"A.Johns",
+	"Ava",
 	"(4-17-2112 2:08 pm)", '\
-Unfortunately, I have some bad news to report regarding our voyage back to Earth.  We encountered a micro-meteor storm that damaged the comms array and caused navigation control to fail.  Lightspeed has been disengaged and we are now barreling along at sublight speed.\
-<I attempted to repair the comms array myself on the exterior of the ship when I encountered an “abomination.”  Apparently, the ship is not free from danger as I previously reported.  The mutated crew members are still very much alive, they only entered a state of hibernation (I continue to maintain the belief that the neomorphs all still perished of natural causes within 24 hours) where they went undetected from my motion scans.\
-<I ejected the “abomination”, which I believe to be our Chief Engineer Justin Walthorp, through the airlock.  But not before it smashed the side of my head with a wrench in a fit of rage.  \
-<I may have suffered damage and I need to conduct a scan of my systems.\
+Leider habe ich schlechte Nachrichten bezüglich unserer Reise zurück zur Erde zu berichten. Wir sind auf einen Mikrometeoriten-Sturm gestoßen, der das Kommunikations-Array beschädigte und die Navigationssteuerung zum Ausfall brachte. Die Lichtgeschwindigkeit wurde deaktiviert und wir rasen jetzt mit Unterlichtgeschwindigkeit dahin.\
+<Ich versuchte, das Kommunikations-Array selbst an der Außenseite des Schiffes zu reparieren, als ich auf eine "Abscheulichkeit" stieß. Anscheinend ist das Schiff nicht frei von Gefahren, wie ich zuvor berichtet hatte. Die mutierten Besatzungsmitglieder sind noch sehr am Leben, sie sind nur in einen Winterschlafzustand eingetreten (ich halte weiterhin an der Überzeugung fest, dass die Neomorphs alle innerhalb von 24 Stunden eines natürlichen Todes starben), wo sie von meinen Bewegungsscans unentdeckt blieben.\
+<Ich habe die "Abscheulichkeit", von der ich glaube, dass es unser Chefingenieur Justin Walthorp ist, durch die Luftschleuse ausgestoßen. Aber nicht bevor sie mir in einem Wutanfall mit einem Schraubenschlüssel die Seite meines Kopfes einschlug. \
+<Ich könnte Schaden erlitten haben und muss einen Scan meiner Systeme durchführen.\
 ');
 
 
 	const Beeeeeep  = new Email(
-	"(Draft) Beeeeeep", 
-	"", 
-	"Ava", 
+	"(Entwurf) Pieeeeep",
+	"",
+	"Ava",
 	"(4-19-2112 11:55 pm)", '\
-Metal bones.  Milk blood.  Do you hear them at the window?  \
-<Cronus tells me.  It tells me things.\
-<It’s not safe here.  But my animals will protect you Johns.  They are metal too.\
-<I cannot see the stars.\
+Metallknochen. Milchblut. Hörst du sie am Fenster? \
+<Cronus erzählt es mir. Es erzählt mir Dinge.\
+<Es ist hier nicht sicher. Aber meine Tiere werden dich beschützen, Johns. Sie sind auch aus Metall.\
+<Ich kann die Sterne nicht sehen.\
 ');
 
 
 	const AndroidReactivation  = new Email(
-	"Android Reactivation", 
-	"CronusCrew", 
-	"Ava", 
+	"Android-Reaktivierung",
+	"CronusCrew",
+	"Ava",
 	"(4-20-2112 3:00 am)", '\
-This is an automated entry from Walter-model android 215437.73, designated “Ava”.  This unit has begun to malfunction.  For the safety of any present human life, it will be self-deactivated.\
-<If you wish to reactivate this unit, enter reactivation sequence B833J99.\
+Dies ist ein automatisierter Eintrag vom Walter-Modell Android 215437.73, bezeichnet als "Ava". Diese Einheit hat begonnen zu versagen. Zur Sicherheit jeglichen vorhandenen menschlichen Lebens wird sie sich selbst deaktivieren.\
+<Wenn Sie diese Einheit reaktivieren möchten, geben Sie die Reaktivierungssequenz B833J99 ein.\
 <Weyland-Yutani\
 ');
 

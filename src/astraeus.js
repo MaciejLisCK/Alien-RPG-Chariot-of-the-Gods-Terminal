@@ -1,110 +1,110 @@
 /////////////////////ASTRAEUS////////////////////////////
 
 		var astraeus = '\
-		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">BACK</button>\
+		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">ZURÜCK</button>\
 		<div class="datatitle">ASTRAEUS</div>\
 		<div class="dataimage"><img class="dataimg" src="images/astraeus.png"></div>\
-		<div class="datacontent">The Astraeus is a Gallivant Class Starship operated by Galactic Concordant officers.  Named after the Greek god of stars and astrology, this ship’s primary purpose is deep space exploration and research.  \
-		<br /><br />The Astraeus is equipped with a Xenospace Drive for faster-than-light travel across the galaxy, as well as a basic weapons system for defense.\
+		<div class="datacontent">Die Astraeus ist ein Raumschiff der Gallivant-Klasse, das von Offizieren der Galaktischen Konkordanz betrieben wird. Benannt nach dem griechischen Gott der Sterne und Astrologie, dient dieses Schiff hauptsächlich der Tiefraumforschung und -erkundung.  \
+		<br /><br />Die Astraeus ist mit einem Xenospace-Antrieb für Überlichtreisen durch die Galaxie sowie einem Basis-Waffensystem zur Verteidigung ausgestattet.\
 		</div>\
-	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 480; font-size: 28; left: 350;height: 50;" onclick="StartContent(\'crew\');">Crew</button>\
+	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 480; font-size: 28; left: 350;height: 50;" onclick="StartContent(\'crew\');">Besatzung</button>\
 	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 480; font-size: 28; left: 125;height: 50;" onclick="StartContent(\'mission\');">Mission</button>\
 	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 550; font-size: 28; left: 350;height: 50;" onclick="StartContent(\'status\');">Status</button>\
-	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 550; font-size: 28; left: 125;height: 50;" onclick="StartContent(\'systems\');">Systems</button>\
+	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 550; font-size: 28; left: 125;height: 50;" onclick="StartContent(\'systems\');">Systeme</button>\
 	';
 
 	var crew = '\
-		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">BACK</button>\
+		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">ZURÜCK</button>\
 		<div class="datatitle">ASTRAEUS</div>\
 		<div class="dataimage"><img class="dataimg" src="images/astraeus.png"></div>\
 		<div class="datacontent">\
 		<table class="tablecontent">\
-		<tr><td><img class="badge" src="images/vargasbadge.png"></td><td>CAPTAIN: <br />JUDD VARGAS</td>\
-		<td><img class="badge" src="images/holtzbadge.png"></td><td>CHIEF ENGINEER: <br />DALTON HOLTZ</td></tr>\
-		<tr><td><img class="badge" src="images/buchananbadge.png"></td><td>SCIENCE OFFICER: <br />ALAINE BUCHANAN</td>\
-		<td><img class="badge" src="images/shimakibadge.png"></td><td>COMBAT OFFICER: <br />RIKU SHIMAKI</td></tr>\
-		<tr><td><img class="badge" src="images/inbibibadge.png"></td><td>XENOSPACE OPERATOR: <br />INBIBI ASOON</td>\
-		<td><img class="badge" src="images/rorobadge.png"></td><td>ASTRO ROVER: <br />"RO-RO"</td></tr>\
+		<tr><td><img class="badge" src="images/vargasbadge.png"></td><td>KAPITÄN: <br />JUDD VARGAS</td>\
+		<td><img class="badge" src="images/holtzbadge.png"></td><td>LEITENDER INGENIEUR: <br />DALTON HOLTZ</td></tr>\
+		<tr><td><img class="badge" src="images/buchananbadge.png"></td><td>WISSENSCHAFTSOFFIZIER: <br />ALAINE BUCHANAN</td>\
+		<td><img class="badge" src="images/shimakibadge.png"></td><td>KAMPFOFFIZIER: <br />RIKU SHIMAKI</td></tr>\
+		<tr><td><img class="badge" src="images/inbibibadge.png"></td><td>XENOSPACE-OPERATOR: <br />INBIBI ASOON</td>\
+		<td><img class="badge" src="images/rorobadge.png"></td><td>ASTRO-ROVER: <br />"RO-RO"</td></tr>\
 		</table>\
 		</div>\
 		<div>\
 		<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 480; font-size: 28; left: 350;height: 50;" onclick="StartContent(\'astraeus\');">Astraeus</button>\
 	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 480; font-size: 28; left: 125;height: 50;" onclick="StartContent(\'mission\');">Mission</button>\
 	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 550; font-size: 28; left: 350;height: 50;" onclick="StartContent(\'status\');">Status</button>\
-	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 550; font-size: 28; left: 125;height: 50;" onclick="StartContent(\'systems\');">Systems</button>\
+	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 550; font-size: 28; left: 125;height: 50;" onclick="StartContent(\'systems\');">Systeme</button>\
 	';
 
 		var systems = '\
-		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">BACK</button>\
+		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">ZURÜCK</button>\
 		<div class="datatitle">ASTRAEUS</div>\
 		<div class="dataimage"><img class="dataimg" src="images/bridgecontrols.png"></div>\
 		<div class="datacontent">\
-		<font color=#8620f5>Request Weapons Control:</font> Asks permission to enable the weapon constrol stick. \
-		<br /><br /><font color=#f78420>Open Hailing Frequencies: </font> Press to answer a hail or contact another ship.\
-		<br /><br /><font color=#4ef421>Engage Xenospace Drive: </font> Attempts to jump the ship to the coordinates set up in the Xenospace Drive.\
-		<br /><br /><font color=#2084f6>Engage Transmitter Array: </font> Sends or receives object from the Transmitter Array.\
+		<font color=#8620f5>Waffenkontrolle anfordern:</font> Bittet um Erlaubnis, den Waffenkontrollstick zu aktivieren. \
+		<br /><br /><font color=#f78420>Ruffrequenzen öffnen: </font> Drücken, um einen Ruf zu beantworten oder ein anderes Schiff zu kontaktieren.\
+		<br /><br /><font color=#4ef421>Xenospace-Antrieb aktivieren: </font> Versucht das Schiff zu den im Xenospace-Antrieb eingestellten Koordinaten zu springen.\
+		<br /><br /><font color=#2084f6>Transmitter-Array aktivieren: </font> Sendet oder empfängt Objekte vom Transmitter-Array.\
 		</div>\
 		<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 480; font-size: 28; left: 350;height: 50;" onclick="StartContent(\'astraeus\');">Astraeus</button>\
 	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 480; font-size: 28; left: 125;height: 50;" onclick="StartContent(\'mission\');">Mission</button>\
 	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 550; font-size: 28; left: 350;height: 50;" onclick="StartContent(\'status\');">Status</button>\
-	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 550; font-size: 28; left: 125;height: 50;" onclick="StartContent(\'crew\');">Crew</button>\
+	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 550; font-size: 28; left: 125;height: 50;" onclick="StartContent(\'crew\');">Besatzung</button>\
 	';
 
 		var status = '\
-		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">BACK</button>\
+		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">ZURÜCK</button>\
 		<div class="datatitle">ASTRAEUS</div>\
 		<div class="dataimage"><img class="dataimg" src="images/astraeus.png"></div>\
-		<div class="datacontent">Damage incurred from encounter with Urbraxian Corpse Vessel\
+		<div class="datacontent">Schäden durch Begegnung mit urbraxianischem Leichenschiff\
 		<font color="ef433a">\
-		<ul><li><font color="ef433a">Lucidite Reserves: 0%</li>\
-		<li>Impulse Engine Ruptured</li>\
-		<li>Shields at 0%</li>\
-		<li>Xenospace Configuration data loss</li>\
-		<li>Combat Officer - Deceased</li>\
+		<ul><li><font color="ef433a">Lucidite-Reserven: 0%</li>\
+		<li>Impulsantrieb beschädigt</li>\
+		<li>Schilde bei 0%</li>\
+		<li>Verlust der Xenospace-Konfigurationsdaten</li>\
+		<li>Kampfoffizier - Verstorben</li>\
 		</ul></div>\
 		<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 480; font-size: 28; left: 350;height: 50;" onclick="StartContent(\'astraeus\');">Astraeus</button>\
 	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 480; font-size: 28; left: 125;height: 50;" onclick="StartContent(\'mission\');">Mission</button>\
-	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 550; font-size: 28; left: 350;height: 50;" onclick="StartContent(\'crew\');">Crew</button>\
-	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 550; font-size: 28; left: 125;height: 50;" onclick="StartContent(\'systems\');">Systems</button>\
+	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 550; font-size: 28; left: 350;height: 50;" onclick="StartContent(\'crew\');">Besatzung</button>\
+	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 550; font-size: 28; left: 125;height: 50;" onclick="StartContent(\'systems\');">Systeme</button>\
 	';
 
 
 		var mission = '\
-		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">BACK</button>\
+		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">ZURÜCK</button>\
 		<div class="datatitle">MISSION</div>\
 		<div class="dataimage"><img class="dataimg" src="images/impon7.png"></div>\
 		<div class="datacontent">\
-		The Galactic Concordant has commanded the crew of the Astraeus to venture to XCD-14 to conduct zoological research on Impon VII, an uninhabited jungle planet containing rich wildlife.\
-		<br /><br />During the mission the crew discovered an unknown alien temple containing an artifact. \
-		<br /><br />Captain Vargas abruptly ended the mission and the crew returned to the Astraeus with the artifact.\
+		Die Galaktische Konkordanz hat der Besatzung der Astraeus befohlen, nach XCD-14 zu reisen, um zoologische Forschungen auf Impon VII durchzuführen, einem unbewohnten Dschungelplaneten mit reichhaltiger Tierwelt.\
+		<br /><br />Während der Mission entdeckte die Besatzung einen unbekannten außerirdischen Tempel, der ein Artefakt enthielt. \
+		<br /><br />Kapitän Vargas beendete die Mission abrupt und die Besatzung kehrte mit dem Artefakt zur Astraeus zurück.\
 		</div>\
-		<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 500px" onclick="StartContent(\'mission2\');">Next</button>\
+		<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 500px" onclick="StartContent(\'mission2\');">Weiter</button>\
 		';
 
 
 		var mission2 = '\
-		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">BACK</button>\
+		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">ZURÜCK</button>\
 		<div class="datatitle">MISSION</div>\
 		<div class="dataimage"><img class="dataimg" src="images/corpsevessel.png"></div>\
 		<div class="datacontent">\
-		The Astraeus was then ambushed by an Urbraxian Corpse Vessel demanding the artifact.  It is unknown how the Urbraxians became aware of the artifact, however Combat Officer Shimaki surmises the Urbraxians utilized their Xenophoton Networking System to quickly communicate.\
-		<br /><br />The Atraeus attempted to engage its Xenospace Drive and escape, but the ship was damaged before the jump could be completed. With its lucidite depleted in the failed jump, the Astraeus fled using full impulse engines.\
+		Die Astraeus wurde dann von einem urbraxianischen Leichenschiff überfallen, das das Artefakt forderte. Es ist unbekannt, wie die Urbraxianer von dem Artefakt erfuhren, jedoch vermutet Kampfoffizier Shimaki, dass die Urbraxianer ihr Xenophoton-Netzwerksystem zur schnellen Kommunikation nutzten.\
+		<br /><br />Die Astraeus versuchte ihren Xenospace-Antrieb zu aktivieren und zu entkommen, doch das Schiff wurde beschädigt, bevor der Sprung abgeschlossen werden konnte. Mit ihrem in dem fehlgeschlagenen Sprung erschöpften Lucidite floh die Astraeus mit voller Impulsgeschwindigkeit.\
 		</div>\
-		<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 500px" onclick="StartContent(\'mission3\');">Next</button>\
+		<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 500px" onclick="StartContent(\'mission3\');">Weiter</button>\
 		';
 
 		var mission3 = '\
-		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">BACK</button>\
+		<button class="backbutton" onmousedown="playRandomSound()" onclick="StartContent(\'mainMenu\');">ZURÜCK</button>\
 		<div class="datatitle">MISSION</div>\
 		<div class="dataimage"><img class="dataimg" src="images/stars.gif"></div>\
 		<div class="datacontent">\
-		Temporary eluding the Urbraxians, Captain Vargas ordered the remaining crew flee the ship using escape capsules.\
-		<br /><br />Captain Vargas elected to remain on the ship, keeping it in minimal power mode to prevent the pursuing Urbraxians from honing in on its location.\
+		Um den Urbraxianern vorübergehend zu entkommen, befahl Kapitän Vargas der verbliebenen Besatzung, das Schiff mit Rettungskapseln zu verlassen.\
+		<br /><br />Kapitän Vargas beschloss, auf dem Schiff zu bleiben und es im minimalen Energiemodus zu halten, um zu verhindern, dass die verfolgenden Urbraxianer seinen Standort orten.\
 		</div>\
 		<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 480; font-size: 28; left: 350;height: 50;" onclick="StartContent(\'astraeus\');">Astraeus</button>\
-	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 480; font-size: 28; left: 125;height: 50;" onclick="StartContent(\'crew\');">Crew</button>\
+	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 480; font-size: 28; left: 125;height: 50;" onclick="StartContent(\'crew\');">Besatzung</button>\
 	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 550; font-size: 28; left: 350;height: 50;" onclick="StartContent(\'status\');">Status</button>\
-	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 550; font-size: 28; left: 125;height: 50;" onclick="StartContent(\'systems\');">Systems</button>\
+	<button class="greenbutton databutton" onmousedown="playRandomSound()" style="top: 550; font-size: 28; left: 125;height: 50;" onclick="StartContent(\'systems\');">Systeme</button>\
 	';
 
 ////////////////////////////////////
