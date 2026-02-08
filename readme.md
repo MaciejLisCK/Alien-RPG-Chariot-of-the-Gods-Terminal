@@ -34,6 +34,7 @@ Idea is there are access codes that could be found on different places, so playe
 # Other materials
 * [Alternative Map for Players](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/images//USCSSCronusPlayerMap.png)
 * [Alternative Map for GM(Mother)](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/images//USCSSCronusGMMap.png)
+* [Combat flow charts](https://imgur.com/a/alien-rpg-combat-flowcharts-v2-HeIA1Pt)
 
 # Original post on reddit
 >TL;DR Log on to the access terminal as Security Officer Clark Reynolds to try it out: https://www.experimentalgamer.com/AlienRPG/ChariotOfTheGods/Terminal/index.html?id=8654
