@@ -21,19 +21,20 @@ Code is extremely difficult to maintain.
 Idea is there are access codes that could be found on different places, so players can access terminal with code. Below there are shortcuts to access those codes.
 
 * [Public - code: 1111](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/index.html?code=1111)
+* [C.Reynolds - code: 8654](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/index.html?code=8654)
 * [A. Johns - code: 1987](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/index.html?code=1987)
 * [V. Reid - code: 2654](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/index.html?code=2654)
-* [L. Flynn - code: 3321](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/index.html?code=3321)
 * [D. Cooper - code: 4987](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/index.html?code=4987)
+* [L. Flynn - code: 3321](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/index.html?code=3321)
+* [L.Clayton - code: 9321](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/index.html?code=9321)
 * [Ava - code: 5654](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/index.html?code=5654)
 * [R.Walker - code: 6321](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/index.html?code=6321)
 * [E.Tenwick - code: 7987](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/index.html?code=7987)
-* [C.Reynolds - code: 8654](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/index.html?code=8654)
-* [L.Clayton - code: 9321](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/index.html?code=9321)
 
 # Other materials
 * [Alternative Map for Players](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/images//USCSSCronusPlayerMap.png)
 * [Alternative Map for GM(Mother)](https://maciejlisck.github.io/Alien-RPG-Chariot-of-the-Gods-Terminal/src/images//USCSSCronusGMMap.png)
+* [Combat flow charts](https://imgur.com/a/alien-rpg-combat-flowcharts-v2-HeIA1Pt)
 
 # Original post on reddit
 >TL;DR Log on to the access terminal as Security Officer Clark Reynolds to try it out: https://www.experimentalgamer.com/AlienRPG/ChariotOfTheGods/Terminal/index.html?id=8654
